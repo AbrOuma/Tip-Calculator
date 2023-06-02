@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: grey;
+    text-align: center;
+
+}
+
+.container {
+    max-width: 350px;
+    margin: auto;
+    padding: 20px;
+    background-color: #dbe8c3;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.tip-card {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.tip-card p {
+    margin: 0;
+    font-size: 18px;
+}
